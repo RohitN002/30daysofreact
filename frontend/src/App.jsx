@@ -4,6 +4,8 @@ import Day2 from './day2/Day2'
 import Day3 from './day3/Day3'
 import Day4 from './Day4/Day4'
 import Day5 from './Day5/Day5'
+import Day6 from './Day6/Day6'
+import Day7 from './Day7/Day7'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
     <Day3/>
     <Day4/>
     <Day5/>
+    <Day6/>
+    <Day7/>
     </>
   )
 }
