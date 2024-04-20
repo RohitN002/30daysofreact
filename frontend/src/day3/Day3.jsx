@@ -13,10 +13,22 @@ setStart(event.target.value)
     setEnd(event.target.value)
   }
   const handleSubmit=()=>{
-if()
+    const startnum = parseFloat(start)
+    const endnum =parseFloat(end)
+
+if(isNaN(startnum)||isNaN(endnum)){
+  setErr("Invalid input")
+  SetRandomNum(null)
+}else{
+const random = Math.floor(Math.random()*(endnum-startnum+1))+startnum 
+SetRandomNum(random)
+setErr('')
+}
+
   }
   return (
     <div>
+      <h2>Day3</h2>
         <input type="number" 
         value={start}
         onChange={handlestartrange}
