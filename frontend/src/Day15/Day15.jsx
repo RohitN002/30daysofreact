@@ -36,6 +36,7 @@ const Day15 = () => {
 
   return (
     <div>
+        <h1>Day 15</h1>
       {/* Generate button */}  
       <button id="generate" onClick={generatePalette}>Generate</button>
       
