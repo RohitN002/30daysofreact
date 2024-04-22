@@ -25,6 +25,7 @@ function RatingSystem() {
 
   return (
     <div>
+        <h1>Day 12</h1>
       {/* Emoji buttons */}
       <div id="feedback">
         <button onClick={() => handleEmojiSelect('😍')}>😍</button>
