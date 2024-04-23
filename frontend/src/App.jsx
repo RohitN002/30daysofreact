@@ -19,6 +19,7 @@ import Day17 from './Day17/Day17'
 import Day18 from './Day18/Day18'
 import Day19 from './Day19/Day19'
 import Day20 from './Day20/Day20'
+import Day21 from './Day21/Day21'
 
 const App = () => {
   return (
@@ -43,6 +44,7 @@ const App = () => {
 <Day18/>
 <Day19/>
 <Day20/>
+<Day21/>
     </>
   )
 }
